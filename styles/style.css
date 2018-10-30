@@ -277,6 +277,18 @@
     .skill-wrapper > div:nth-child(even) {
         padding: 50px 0;
     }
+    .skill-wrapper > div:nth-child(1) {
+        background-color: rgba(189,143,143,0.7);
+    }
+    .skill-wrapper > div:nth-child(6) {
+        background-color: rgba(189,143,143,0.5);
+    }
+    .skill-wrapper > div:nth-child(11) {
+        background-color: rgba(189,143,143,0.7);
+    }
+    .awards {
+        background-image: url("img/succulence-in-varying-colors.jpg");
+    }
     .portfolio-img {
         background-image: url('img/pineapple-shades.jpg');
         background-size: cover;
@@ -296,6 +308,16 @@
         background-size: cover;
         min-height: 600px;
         position: relative;
+    }
+    .contact-headshot{
+        background: url("img/headshot.jpg");
+        background-size: cover;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+        margin-top: 50px;
+
     }
     .contact {
         font-family: 'Fugaz One', cursive;

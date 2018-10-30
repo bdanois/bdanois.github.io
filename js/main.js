@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
     var typed = new Typed('.element', {
-        strings: ["Welcome to my interactive resume.", "Scroll to continue."],
+        strings: ["My name is Brianna Danois and I am an aspiring developer.", "This is my interactive resume."],
         typeSpeed: 40
       });
 
