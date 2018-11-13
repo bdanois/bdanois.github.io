@@ -28,6 +28,9 @@
         padding-left: 115px;
         font-size: 12px; 
     }
+    a {
+        color: rosybrown;
+    }
     .container {
         padding: 40px 0px;
     }
