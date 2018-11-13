@@ -75,8 +75,8 @@
     }
     .interactive-nav{
         background-image: url('img/white-wood-plant-coffee.jpg');
-        background-size: cover; 
-        height: 700px;
+        background-size: cover;
+        height: 100%;
         padding:0;
         position: fixed;
         width: 100%;
@@ -176,6 +176,7 @@
     .step > h3 {
         font-weight: 200;
         font-size: 33px;
+        display: none;
     }
     .hidden-step {
         font-family: 'Oxygen', sans-serif;

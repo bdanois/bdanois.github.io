@@ -12,6 +12,8 @@ $(document).ready(function(){
         $(".header").css("opacity", 1 - $(window).scrollTop() / 500);
         $(".intro-header").css("opacity", 1 - $(window).scrollTop() / 1500);
         $(".interactive-nav").css("opacity", 0 + $(window).scrollTop() / 1500);
+        $(".intro-portfolio").css("opacity", 1 - $(window).scrollTop() / 500);
+
     });
     $(".button-1").click(function(){
         $("#step-1").slideToggle();
