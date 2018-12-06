@@ -264,7 +264,7 @@ footer {
     font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     font-weight: 100;
-    padding: 20px;
+    padding: 20px 15px;
 }
 .text-section-1{
     width: 80%;
@@ -287,13 +287,14 @@ footer {
     border-radius: 10px;
     height: 300px;
     margin-top: 59px;
-    margin-left: 10px;
 }
 .left {
     float: left;
+    margin-left: 10px;
 }
 .right {
     float: right;
+    margin-right: 10px;
 }
 .big-button {
     font-size: 40px;
