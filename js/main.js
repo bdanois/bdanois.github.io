@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
     var typed = new Typed('.element', {
-        strings: ["My name is Brianna Danois and I am an aspiring developer.", "This is my interactive resume."],
+        strings: ["Welcome to my interactive resume.", "Scroll to continue."],
         typeSpeed: 40
       });
 
@@ -41,4 +41,16 @@ $(document).ready(function(){
     $(".button-7").click(function(){
         $("#step-7").slideToggle();
     });
+
+    $(".button-8").click(function(){
+        $("#step-8").slideToggle();
+    });
+
+    $(".button-9").click(function(){
+        $("#step-9").slideToggle();
+    });
+    $(".button-10").click(function(){
+        $("#step-10").slideToggle();
+    });
 });
+

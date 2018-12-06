@@ -1,0 +1,11 @@
+on click input line will appear
+
+
+
+on enter or submit
+
+
+
+new card will be created with the input in it
+
+
