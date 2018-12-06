@@ -81,7 +81,7 @@ footer {
     font-family: 'Fugaz One', cursive;
 }
 .backdrop {
-    background-image: url("img/2flowers.jpg");
+    background-image: url("img/minimalist-white-desk.jpg");
     background-size: cover; 
     height: 100%;
     width: 100%; 
@@ -89,8 +89,35 @@ footer {
     top: 0;
     z-index: 0;
 }
-.backdrop-intern {
-    background-image: url("img/pencil.jpg");
+.backdrop-1 {
+    background-image: url("img/type-writer.jpg");
+    background-size: cover; 
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.backdrop-2 {
+    background-image: url("img/pink-white.jpg");
+    background-size: cover; 
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.backdrop-3 {
+    background-image: url("img/yellow.jpg");
+    background-size: cover; 
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.backdrop-4 {
+    background-image: url("img/station.jpg");
     background-size: cover; 
     height: 100%;
     width: 100%; 
