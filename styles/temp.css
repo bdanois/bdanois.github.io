@@ -89,6 +89,15 @@ footer {
     top: 0;
     z-index: 0;
 }
+.backdrop-intern {
+    background-image: url("img/pencil.jpg");
+    background-size: cover; 
+    height: 100%;
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
 .header {
     position: relative;
     top: 0;
@@ -146,7 +155,7 @@ footer {
     background-color: white;
     border-color: whitesmoke;
     border-radius: 3px;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
     color: rosybrown;
     font-weight: 600;
     margin: auto;
@@ -220,6 +229,14 @@ footer {
 .big-button {
     font-size: 40px;
     font-weight: 600;
+}
+.contact-links {
+    position: relative;
+    top: 55px;
+}
+.contact-links > a {
+    color: white;
+    font-size: 30px;
 }
 .img-intern-1 {
     background-image: url('img/crm2.png');
