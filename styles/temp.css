@@ -33,6 +33,11 @@ a:hover {
     color: indianred;
     background: white;
 }
+img {
+    padding: 20px;
+    size: cover;
+    width: 80%;
+}
 .hsjs {
     /* font-family: 'Unlock', cursive;
     font-family: 'Roboto Slab', serif;
@@ -110,7 +115,6 @@ a:hover {
     color: rosybrown;
     font-weight: 600;
     margin: auto;
-    margin-top: 60px;
     font-family: 'Fugaz One', cursive;
     position: relative;
     top: 0;
@@ -118,6 +122,25 @@ a:hover {
     min-height: 500px;
     height: auto;
     margin-top: 280px;
+}
+.intern-section{
+    width: 88%;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    border-color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.8);
+    color: rosybrown;
+    font-weight: 600;
+    margin: auto;
+    font-family: 'Fugaz One', cursive;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    min-height: 500px;
+    height: auto;
 }
 .section-header{
     font-weight: 200;
