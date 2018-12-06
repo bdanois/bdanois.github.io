@@ -53,6 +53,9 @@ a:hover {
     color: indianred;
     background: rgba(255,255,255,0.5);
 }
+.hatchshow-temp {
+    display: block;
+}
 .nav {
     z-index: 3;
     position: fixed;
