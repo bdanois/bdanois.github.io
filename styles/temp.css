@@ -25,6 +25,29 @@ a {
     border-left-width: 3px;
     border-right-width: 3px;
 }
+.hs1 {
+    size: 96px;   
+}
+
+.hs2 {
+    size: 89px;   
+}
+
+.hs3 {
+    size: 33px;   
+}
+
+.hs4 {
+    size: 73px;   
+}
+
+.hs5 {
+    size: 67px;   
+}
+
+.hs6 {
+    size: 45px;   
+}
 a:hover {
     text-decoration: none;
     color: indianred;
