@@ -6,7 +6,7 @@
   <meta name="description" content="Brianna Danois Portfolio">
   <meta name="Brianna Danois" content="SitePoint">
 
-  <link rel="stylesheet" href="styles/temp.css">
+  <link rel="stylesheet" href="../styles/temp.css">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Bevan|Fugaz+One|Luckiest+Guy|M+PLUS+1p|Muli|Nanum+Gothic|Oxygen:300,700|Quicksand:400,500|Roboto+Slab|Rock+Salt|Sanchez|Sigmar+One|Signika+Negative:400,600|Special+Elite" rel="stylesheet">  
   <link href="https://fonts.googleapis.com/css?family=Acme|Alegreya+Sans+SC|Alfa+Slab+One|Archivo+Black|Audiowide|Black+Han+Sans|Bungee|Cinzel|Fredoka+One|Julius+Sans+One|Merienda|Monoton|Nanum+Myeongjo|Passion+One|Permanent+Marker|Roboto+Slab:400,700|Sedgwick+Ave|Shadows+Into+Light+Two|Shrikhand|Unica+One|Unlock|VT323|Vidaloka" rel="stylesheet">
 
@@ -15,37 +15,33 @@
 
 <body>
     <!-- <div class='nav-bar'>
-        <div class='list'>
+        <div class='list'>x
             <li class='step'>Internship</li>
             <li class='step'>Education</li>
             <li class='step'>Links</li>
         </div>
       </div> -->
   <div class='backdrop-intern'></div>
-
     <!-- Beginning of Sections -->
 
     <!-- Beginning of Intership Section -->
-      <div class='internship section' id='internship'>
-          <div class='section-header'>Internship Experience</div>
-          <div>
-              <div class='intern-1 sub-section'>
-                <h3 class ='section-sub-header'>Interactive CRM Tool</h3>
-                <div class='img-intern-1 section-img left'></div>
-                <div class='text-intern-1 text-section right'><p>For our main project, my fellow intern and I designed an Interactive Customer Relationship Management web application from scratch. The purpose of this tool is to enable the user to create and delete lists and items.<br><br>To learn more about the project and to try it out:</p>
-                <a href='internship/crm-tool.html'>Click Here</a></div>
-
-                <!-- We first designed the layout using the HTML and CSS. I designed the main layout of the grid using CSS Grid while she designed the navigation bar.
-                  <br>We then implemented the drag and drop feature through the use of a javascript library called Dragula. The  -->
-
-              </div>
-              <div class='intern-2 sub-section'>
-                <h3 class='section-sub-header'>Web Design</h3>
-                <div class='img-intern-2 section-img right'></div>
-                <div class='text-intern-2 text-section left'><p>Throughout the internship I also worked on various static web pages to refine my web development skills. I gained experience utilizing HTML, CSS, Bootstrap, JavaScript and jQuery.<br><br>To view screenshots of my websites: </p><a href='internship/web-design.html'>Click Here</a></div>
+    <div class='intern-section' id='internship'>
+            <div>
+                <div class='intern-1 sub-section'>
+                  <h3 class ='section-sub-header'>Mobile Web Application Development</h3>
+                  <div class='text-intern-1 text-section-1'><p>Throughout the second half of this course we developed an online, mobile-first portfolio utilizing a bootstrap template. Assignment 4, Assignment 5 and Project 2 consisted of developing a web form for petstores that connected to a database.</p>
+                  <img src="../styles/img/final-project-4381.png" alt="landing page of the web form"><br>
+                  <p>For assignment 4 we developed the display layout for the petstores already in the MySQL database.</p>
+                  <img src="../styles/img/final-project-add.png" alt="3 courses offered by the site displayed on the main page.">
+                  <p>We also enabled an add form that allows users to add petstores. This add form was equipped with client side validation so the user only submitted valid input.</p>
+                  <img src="../styles/img/final-project-edit.png" alt="3 courses offered by the site displayed on the main page.">
+                  <p>For Project 2, our final development for the course, we enabled server-side validation to the add form, and added the delete and edit features. The edit feature redirected the user to the add form but populated the fields with the data from the database. Once the user clicks update the server-side validation would ensure the data was valid and update the MySQL database with the new input.</p>    
               </div>
           </div>
       </div>
-
+    </div>
+      <footer class="text-center">
+            <div>All content present in this interactive resume was designed by me, Brianna Danois, without any use of templates. I used exclusively HTML, CSS, JQuery and Javascript libraries.</div>
+          </footer>
 </body>
 </html>
