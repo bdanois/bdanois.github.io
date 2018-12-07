@@ -8,49 +8,78 @@
 
   <link rel="stylesheet" href="styles/temp.css">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Bevan|Fugaz+One|Luckiest+Guy|M+PLUS+1p|Muli|Nanum+Gothic|Oxygen:300,700|Quicksand:400,500|Roboto+Slab|Rock+Salt|Sanchez|Sigmar+One|Signika+Negative:400,600|Special+Elite" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Acme|Alegreya+Sans+SC|Alfa+Slab+One|Archivo+Black|Audiowide|Black+Han+Sans|Bungee|Cinzel|Fredoka+One|Julius+Sans+One|Merienda|Monoton|Nanum+Myeongjo|Passion+One|Permanent+Marker|Roboto+Slab:400,700|Sedgwick+Ave|Shadows+Into+Light+Two|Shrikhand|Unica+One|Unlock|VT323|Vidaloka" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <div class='nav-bar'>
-        <div class='list'>
-            <li class='step'>Internship</li>
-            <li class='step'>Education</li>
-            <li class='step'>Links</li>
-        </div>
-    </div>
+  <div class='backdrop'></div>
+  
     <div class='header'>
         <div class='sub-header'>
-            <p><span class='hsjs'>My Name is Brianna Danois</span></p>
-            <p><span class='hsjs'>This is My Portfolio</span></p>
-            <p><span class='hsjs'>Click the Links Below to View my Experience</span></p>
-            <p><span class='hsjs left'>Internship</span></p>
-            <p><span class='hsjs right'>Education</span></p>
-            <p><span class='hsjs'>And Click Here For My Links And Page</span></p>
-            <p><span class='hsjs'>Or Scroll To Continue</span></p>
+          <div class=hatchshow>
+            <p class='hsjs hs1'>Welcome to My Portfolio</p>
+            <p class='hsjs hs2'>My Name is Brianna Danois</p>
+            <p class='hsjs hs3'>I am an aspiring Web Developer and Information Technology Professional</p>
+            <p class='hsjs hs4'>Click the Links Below to View my</p>
+            <p class='hs5'><a href='#education'> Education</a><a href='#internship'>Internship</a><a href='#links'>Contact</a></p>
+            <p class='hs6'><a href='index.html'>View My Interactive Resume</a> Or scroll to continue.</p>
+          </div>
         </div>
     </div>
 
+    <!-- Beginning of Sections -->
 
+    <!-- Beginning of Intership Section -->
+      <div class='internship section' id='internship'>
+          <div class='section-header'>Internship Experience</div>
+          <div>
+              <div class='intern-1 sub-section'>
+                <h3 class ='section-sub-header rosybrown'>Interactive CRM Tool</h3>
+                <div class='img-intern-1 section-img left'></div>
+                <div class='text-intern-1 text-section right'><p>For our main project, my fellow intern and I designed an Interactive Customer Relationship Management web application from scratch. The purpose of this tool is to enable the user to create and delete lists and items.<br><br></p>
+                <a class='white'href='internship/crm-tool.html'>More About the CRM Tool</a></div>
+
+                <!-- We first designed the layout using the HTML and CSS. I designed the main layout of the grid using CSS Grid while she designed the navigation bar.
+                  <br>We then implemented the drag and drop feature through the use of a javascript library called Dragula. The  -->
+
+              </div>
+              <div class='intern-2 sub-section'>
+                <h3 class='section-sub-header rosybrown'>American Safety Institute Website Design</h3>
+                <div class='img-intern-2 section-img right'></div>
+                <div class='text-intern-2 text-section left'><p>Throughout the internship I also worked on various web pages to refine my HTML, CSS, Bootstrap, PHP, JavaScript and jQuery skills. My most notable project was assisting the lead web developer with a multi-page website for a client.</p><a class = 'white'href='internship/web-design.html'>More About ASI Site</a></div>
+              </div>
+          </div>
+      </div>
+    <!-- Beginning of Education Section -->
+    <div class='education section' id='education'>
+        <div class='section-header'>Education Experience</div>
+            <div class='edu-1 sub-section'>
+              <h3 class ='section-sub-header rosybrown'>Mobile Web Application Development Final Project</h3>
+              <div class='img-edu-1 section-img left'></div>
+              <div class='text-edu-1 text-section right'><p>Throughout this course, I developed various mobile and web applications. The second half of the semester involved working on a webform that connects to a database. Each assignment introduced an add, delete and edit functionality to the form.<br><br></p><a class='white' href='education/mobile-web.html'>More About the Web App</a></div>
+            </div>
+            <div class='edu-1 sub-section'>
+              <h3 class ='section-sub-header rosybrown'>Advanced Database Design Project 1</h3>
+              <div class='img-edu-2 section-img right'></div>
+              <div class='text-edu-2 text-section left'><p>For my database design class I worked with several Database Management Systems including MySQL, Microsoft SQL Server, Oracle and MongoDB.<br></p><a class='white' href='education/databases.html'>More About Project 1</a></div>
+            </div>
+    </div>
+
+    <div class='links section' id='links'>
+        <div class='section-header'>Links</div>
+      <div class='headshot'></div>
+      <div class='contact-links'>
+        <a href='https://github.com/bdanois'>Github</a>
+        <a href='index.html'>Interactive Resume</a>
+        <a href='https://www.linkedin.com/in/brianna-danois-65245b157/'>LinkedIn</a>
+      </div>
+    </div>
+    <footer class="text-center">
+  <div>All content present in this interactive resume was designed by me, Brianna Danois, without any use of templates. I used exclusively HTML, CSS, JQuery and Javascript libraries.</div>
+</footer>
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script type="text/javascript" charset="utf-8">
-    $(window).load(function(){
-      $().hatchShow();
-    });		
-    jQuery.fn.hatchShow = function(){
-      $('.hsjs').css('display','inner-block').css('white-space','pre').each(function(){
-        var t = $(this);
-        t.wrap("<span class='hatchshow_temp' style='display:block'>");
-        var pw = t.parent().width();
-        while( t.width() < pw ){t.css('font-size', (t.fontSize()+1)+"px"),
-          function(){while( t.width() > pw ){t.css('font-size', (t.fontSize()-.1)+"px")}};
-        };
-      }).css('visibility','visible');
-    };
-    jQuery.fn.fontSize = function(){return parseInt($(this).css('font-size').replace('px',''));};
-
-  </script>
 </body>
 </html>

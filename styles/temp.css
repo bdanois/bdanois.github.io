@@ -26,35 +26,40 @@ a {
     border-right-width: 3px;
 }
 .hs1 {
-    size: 96px;   
+    font-size: 95px;   
 }
 
 .hs2 {
-    size: 89px;   
+    font-size: 88px;   
 }
 
 .hs3 {
-    size: 33px;   
+    font-size: 32px;   
 }
 
 .hs4 {
-    size: 73px;   
+    font-size: 72px;   
 }
 
 .hs5 {
-    size: 67px;   
+    font-size: 69px;  
+    margin: 13px 0;
+    font-family: 'Fugaz One', cursive; 
 }
 
 .hs6 {
-    size: 45px;   
+    font-size: 44px;
+    margin: 43px 0;
+    font-family: 'Fugaz One', cursive;
 }
 a:hover {
     text-decoration: none;
     color: indianred;
     background: rgba(255,255,255,0.5);
 }
-.hatchshow-temp {
-    display: block;
+.hatchshow{
+    width: 100%;
+    text-align: center;
 }
 .nav {
     z-index: 3;
@@ -117,30 +122,8 @@ footer {
     z-index: 2;
   }
 .hsjs {
-    /* font-family: 'Unlock', cursive;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Bungee', cursive;
-    font-family: 'Acme', sans-serif;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Cinzel', serif;
-    font-family: 'Sedgwick Ave', cursive;
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Archivo Black', sans-serif;
-    font-family: 'Passion One', cursive;
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Nanum Myeongjo', serif;
-    font-family: 'Vidaloka', serif;
-    font-family: 'VT323', monospace;
-    font-family: 'Monoton', cursive;
-    font-family: 'Shrikhand', cursive;
-    font-family: 'Audiowide', cursive;
-    font-family: 'Unica One', cursive;
-    font-family: 'Shadows Into Light Two', cursive;
-    font-family: 'Merienda', cursive;
-    font-family: 'Black Han Sans', sans-serif;
-    font-family: 'Julius Sans One', sans-serif;
-    font-family: 'Alegreya Sans SC', sans-serif; */
     font-family: 'Fugaz One', cursive;
+    margin:0;
 }
 .backdrop {
     background-image: url("img/minimalist-white-desk.jpg");
